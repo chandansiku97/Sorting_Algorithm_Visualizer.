@@ -1,0 +1,115 @@
+#container {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(195, 201, 207)
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* Cool font choice */
+    font-size: 36px;
+    /* Adjust font size */
+}
+
+.bar {
+    width: 15px;
+    background-color: black;
+    margin: 3px;
+}
+
+.Algorithms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Spacing between buttons */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Button styles */
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    /* Adjust font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Arial', sans-serif;
+    /* Set your desired font family */
+}
+
+
+/* Hover effect */
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+
+/* Styles for each specific button */
+
+.insertionSort {
+    background-color: #3498db;
+    color: white;
+}
+
+.bubbleSort {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.selectionSort {
+    background-color: #2ecc71;
+    color: white;
+}
+
+
+/* Container styles */
+
+.init {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4px;
+    /* Adjust height as needed */
+    background-color: #f2f2f2;
+    /* Set background color */
+}
+
+
+/* Button styles */
+
+#init {
+    padding: 3px 4px;
+    font-size: 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Hover effect */
+
+#init:hover {
+    background-color: #0f5ad1;
+}
